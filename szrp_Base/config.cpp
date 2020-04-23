@@ -108,6 +108,12 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"dz\gear\food\data\meat_leg_rotten_CO.paa","dz\gear\food\data\meat_leg_baked_CO.paa","dz\gear\food\data\meat_leg_baked_CO.paa","dz\gear\food\data\meat_leg_dried_CO.paa","dz\gear\food\data\meat_leg_burned_CO.paa"};
 		hiddenSelectionsMaterials[] = {"dz\gear\food\data\meat_leg_rotten.rvmat","dz\gear\food\data\meat_leg_baked.rvmat","dz\gear\food\data\meat_leg_boiled.rvmat","dz\gear\food\data\meat_leg_dried.rvmat","dz\gear\food\data\meat_leg_burnt.rvmat","dz\gear\food\data\meat_leg_rotten.rvmat"};
 	};
+	class szrp_HikingJacket_Color: HouseNoDestruct
+	{
+		scope = 1;
+		model="\DZ\characters\tops\pcu5jacket_ground.p3d";
+		hiddenSelectionsTextures[]={"\dz\characters\tops\data\PCU5Jacket_g_nopatches_v3_co.paa"};
+	};
 	class Inventory_Base;
 	class TruckBattery: Inventory_Base
 	{
