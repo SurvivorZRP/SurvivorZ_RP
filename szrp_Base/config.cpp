@@ -1,3 +1,5 @@
+#define _ARMA_
+
 class CfgPatches
 {
 	class szrp
@@ -7,10 +9,17 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
+			"DZ_Animals",
+			"DZ_Characters_Backpacks",
 			"DZ_Data",
-			"DZ_Scripts",
+			"DZ_Gear_Crafting",
 			"DZ_Gear_Consumables",
-			"DZ_Vehicles_Parts"
+			"DZ_Gear_Tools",
+			"DZ_Scripts",
+			"DZ_Vehicles_Parts",
+			"DZ_Vehicles_Wheeled",
+			"DZ_Weapons_Lights"
+			
 		};
 	};
 };
@@ -18,7 +27,7 @@ class CfgMods
 {
 	class szrp
 	{
-		dir="survivorZRP";
+		dir="SurvivorZ_RP";
 		picture="";
 		action="";
 		hideName=1;
@@ -43,7 +52,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"survivorZ_RP/szrp_Base/scripts/3_Game"
+					"SurvivorZ_RP/szrp_Base/scripts/3_Game"
 				};
 			};
 			class worldScriptModule
@@ -51,7 +60,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"survivorZ_RP/szrp_Base/scripts/4_World"
+					"SurvivorZ_RP/szrp_Base/scripts/4_World"
 				};
 			};
 		};

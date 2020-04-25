@@ -1,6 +1,0 @@
-﻿//<'Livonia_map.pbo' properties via Mikero's dos tools, dll version 7.62>
-prefix=DZ\structures_bliss\signs\Tourist\data;
-Mikero=DePbo.dll.7.46;
-version=Thu Apr 09 11:32:34 2020;
-PboType=Arma Addon;
-//</properties>
